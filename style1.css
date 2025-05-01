@@ -1,0 +1,222 @@
+*{
+    background-color: white;
+    border: border-box;
+}
+
+hr {
+    border-color: black;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: sticky;
+    top: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    padding-left: 50px;
+}
+
+#one {
+    font-size: 35px;
+    font-family: "Sigmar", serif;
+    font-weight: 400;
+    font-style: normal; 
+    padding-left: 20px;
+}
+
+#one:hover {
+    color: red;
+    /* font-size: 42px; */
+    text-shadow: 4px 4px #410000;
+}
+
+.navbar {
+    font-family: "Sigmar", serif;
+    font-weight: 400;
+    font-style: normal; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 340px;
+    border-right: 2px solid black;
+}
+
+#vone {
+    font-size: 20px;
+    padding-right: 50px;
+    padding-left: 0px;
+}
+#vone:hover {
+    color: rgb(0, 0, 175);
+    text-shadow: 2px 2px #0a0041;
+    
+}
+
+#two {
+    color: rgb(0, 0, 0);
+    font-family: "Sigmar", serif;
+    font-weight: 400;
+    font-style: normal; 
+    background-color: #ffffff;
+    padding: 2px;
+    margin: 50px;
+}    
+
+#two:hover {
+    color: white;
+    background-color: #000;
+}
+
+.sec1 {
+    font-family: "Sigmar", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.img1 {
+    height: 170px;
+}
+
+h1 {
+    padding-left: 20px;
+}
+p {
+    padding-left: 20px;
+}
+
+.news1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.img1 {
+    border-radius: 10px;
+}
+
+video {
+    background-color: #000;
+    height: 500px;
+    /* width: 450px; */
+    /* position: center;   */
+    display: flex;
+    margin-left:450px;
+}
+.slidbar {
+    background-color: #000;
+}
+
+.goat {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: "Sigmar", serif;
+    font-weight: 400;
+    font-style: normal; 
+    /* margin-left: 526px;
+    margin-right: 526px; */
+    text-align: center;
+    font-size: 25px;
+}
+
+.matches {
+    font-family: "Sigmar", serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 0.4; 
+}
+
+.highlights {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.info {
+    font-size: large;
+    display: flex;
+    /* justify-content: space-evenly; */
+    font-family: "Sigmar", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#pone {
+    width: 33.3%;
+    padding-left: 30px;
+}
+
+#ptwo {
+    width: 33.3%;
+    /* padding-left: 100px; */
+}
+
+#pthree {
+    width: 33.3%;
+    /* padding-left: 100px; */
+}
+
+ul {
+    font-family: "Sigmar", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.teams {
+    font-family: "Sigmar", serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 0.4;
+}
+
+.infoteamtxt {
+    padding-left: 25px;
+}
+
+.club {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.clubimg1 {
+    padding-left: 50px;
+    height: 75px;
+    /* width: 50px; */
+}
+
+.clubname1 {
+    font-family: "Sigmar", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+
+.achivements {
+    display: flex;
+    align-items: center;
+}
+
+.uclimg1 {
+    height: 50px;
+    width: 50px;
+    padding-right: 0px;
+}
+
+.ucltext {
+    font-size: 25px;
+    margin-top: 35px;
+    padding-left: 0px;
+    font-family: "Sigmar", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.clubimg2 {
+    padding-left: 50px;
+    height: 60px;
+}
